@@ -9,6 +9,9 @@ function App() {
           <h2>
               Work in progress!
           </h2>
+          <p>
+              Contact: <a href={'mailto:m.chaharbaghi@live.co.uk'}>m.chaharbaghi@live.co.uk</a>
+          </p>
       </header>
     </div>
   );
