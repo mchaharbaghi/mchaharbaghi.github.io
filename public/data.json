@@ -1,0 +1,100 @@
+{
+  "main": {
+    "name":"Michael Chaharbaghi",
+    "occupation":"Full Stack Software Developer",
+    "description":"",
+    "image":"me.png",
+    "bio":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "contactmessage":"Please feel free to reach out to me by email or LinkedIn message using the details below",
+    "email": "m.chaharbaghi@live.co.uk",
+    "address":{
+      "city":"Milton Keynes"
+    },
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/michael-chaharbaghi/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/mchaharbaghi",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "cv":{
+    "skillmessage":"Full stack experience in widely used languages and technologies including Java, React, Redux and Jest",
+    "education":[
+      {
+        "school":"University Of Birmingham",
+        "degree":"First Class Honours - BSc Computer Science with Industrial Year",
+        "graduated":"June 2018"
+      },
+      {
+        "school":"Tudor Grange Academy Sixth Form",
+        "degree":"Mathematics (A), Physics (A), Chemistry (B), Biology (B, AS Level)",
+        "graduated":"June 2014"
+      }
+    ],
+    "work":[
+      {
+        "company":"Sainsburys Tech",
+        "title":"Associate Software Engineer",
+        "years":"May 2020 - Present",
+        "description":"Working as a Full Stack Developer within the Customer team building services to help Contact Centre agents across the Sainsburys Group."
+      },
+      {
+        "company":"Argos",
+        "title":"Graduate Software Development Engineer",
+        "years":"September 2018 - May 2020",
+        "description": "As part of the Argos Graduate Scheme I am underwent rotations within 3 different software development teams within Sainsbury's Tech across 20 months."
+      },
+      {
+        "company":"ServiceNow",
+        "title":"Technical Support Intern",
+        "years":"July 2016 - July 2017",
+        "description": "Supporting the front and back end of ServiceNow, during my time there I worked with Service Portal, CMS, Access Control Lists, LDAP, SSO, import/export and email issues among much more on a daily basis to try and resolve customer issues and keep their instances running smoothly."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "level":"75%"
+      },
+      {
+        "name":"React",
+        "level":"70%"
+      },
+      {
+        "name":"Jest",
+        "level":"65%"
+      },
+      {
+        "name":"Redux",
+        "level":"65%"
+      },
+      {
+        "name":"SQL",
+        "level":"60%"
+      },
+      {
+        "name":"Kafka",
+        "level":"60%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"60%"
+      }
+
+    ]
+  },
+  "portfolio":{
+    "projects": [
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+    ]
+  }
+}
