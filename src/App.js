@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import About from './components/About/About';
+import CV from './components/CV/CV';
+import Contact from './components/Contact/Contact';
+
 import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import CV from './Components/CV';
-import Contact from './Components/Contact';
 
 class App extends Component {
 
@@ -15,25 +14,13 @@ class App extends Component {
     this.state = {
       data: {}
     };
-
-    ReactGA.initialize('UA-110570651-1');
-    ReactGA.pageview(window.location.pathname);
-
   }
 
   getData(){
-    $.ajax({
-      url:'/data.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({ data });
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
+    const data = require('./data/data.json'); 
+    this.setState({
+      data
+    })
   }
 
   componentDidMount(){
@@ -41,13 +28,20 @@ class App extends Component {
   }
 
   render() {
+    const { 
+      data: {
+        main,
+        cv
+      }
+    } = this.state;
+
     return (
       <div className="App">
-        <Header data={this.state.data.main}/>
-        <About data={this.state.data.main}/>
-        <CV data={this.state.data.cv}/>
-        <Contact data={this.state.data.main}/>
-        <Footer data={this.state.data.main}/>
+        <Header data={main}/>
+        <About data={main}/>
+        <CV data={cv}/>
+        <Contact data={main}/>
+        <Footer data={main}/>
       </div>
     );
   }
