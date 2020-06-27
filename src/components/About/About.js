@@ -3,12 +3,9 @@ import './About.scss';
 
 class About extends Component {
   render() {
-    let profilepic;
-    let bio;
-
     if(this.props.data){
-      profilepic= "images/"+this.props.data.image;
-      bio = this.props.data.bio;
+      var profilepic= "images/"+this.props.data.image;
+      var bio = this.props.data.bio;
     }
 
     return (

@@ -29,10 +29,7 @@ class App extends Component {
 
   render() {
     const { 
-      data: {
-        main,
-        cv
-      }
+      data: { main, cv }
     } = this.state;
 
     return (
